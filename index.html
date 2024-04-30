@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PW-Search</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,13 +16,14 @@
         <p>PokéSearch</p>
         <img src="https://media.crocs.com/images/t_pdphero/f_auto%2Cq_auto/products/10013113_001_ALT100/crocs" alt="">
     </div>
-    <div>
-        <form action="">
-            <input type="text">
-            <button>
+    <div id="pesquisa">
+
+            <input type="text" id="cartaInput" placeholder="Digite a carta">
+            <button onclick="buscarCartas()">
                 <i id="search" class="fa-solid fa-magnifying-glass"></i>
             </button>
-        </form>
+            <div id="cartasContainer"></div>
+
     </div>
 </body>
 </html>
