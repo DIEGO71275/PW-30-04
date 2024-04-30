@@ -24,9 +24,14 @@ img{
     height: 25rem;
 }
 
-form{
+#pesquisa{
     margin-left: 30%;
     margin-top: 2%;
+}
+
+#cartasContainer{
+    display: flex;
+    flex-direction: row;
 }
 
 input{
