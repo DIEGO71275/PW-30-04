@@ -16,7 +16,7 @@ p{
     margin-left: 30rem;
 }
 
-img{
+#gengar-logo{
     
     margin-left: 30%;
     
@@ -25,13 +25,26 @@ img{
 }
 
 #pesquisa{
-    margin-left: 30%;
-    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+#pesquisar{
+    margin-left: 27rem;
 }
 
 #cartasContainer{
+
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    margin: 0 auto;
+    width: auto;
+}
+#cartasContainer .carta{
+    width: auto;
+    height: auto;
+    margin: 10px;
 }
 
 input{
